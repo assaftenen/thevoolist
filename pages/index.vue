@@ -1,6 +1,6 @@
 <template>
   <h1>
-The Voo List...  </h1>
+The Voo List...:-)  </h1>
 </template>
 
 <script>
