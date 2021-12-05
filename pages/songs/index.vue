@@ -1,10 +1,11 @@
 <script>
 export default {
-  data: () => ({
-    songs: [],
-  }),
-  async created() {
-    this.songs = await this.$content('songs').fetch()
+
+  async asyncData({$content, route}) {
+    const songs = await $content('songs').fetch();
+    return ({
+      songs
+    })
   },
 }
 </script>
