@@ -1,6 +1,10 @@
 <template>
-  <h1>
-The Voo List...:-)  </h1>
+  <div>
+    <h1>The Voo List</h1>
+    <NuxtLink to="/songs"
+      >Songs</NuxtLink>
+  </div>
+
 </template>
 
 <script>
